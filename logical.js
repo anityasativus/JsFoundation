@@ -7,4 +7,6 @@ let ispaid=false
 
 console.log(isLoggedin&&ispaid);
 
-let
+let isEmailuser= true ;
+let isGoogleuser=false;
+console.log(isEmailuser&&isGoogleuser);
