@@ -5,8 +5,10 @@
 let isLoggedin=true
 let ispaid=false
 
-console.log(isLoggedin&&ispaid);
-
-let isEmailuser= true ;
+//console.log(isLoggedin&&ispaid);
 let isGoogleuser=false;
-console.log(isEmailuser&&isGoogleuser);
+let isEmailuser= true ;
+
+console.log(isEmailuser || isGoogleuser);
+
+
